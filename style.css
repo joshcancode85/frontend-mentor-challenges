@@ -94,7 +94,6 @@ body{
 }
 
 img{
-    width: 300px;
     border-radius: .25rem;
     border: 1px #dbdbdb solid;
 }
@@ -110,6 +109,7 @@ main{
     padding: 1rem;
     border-radius: .25rem;
     box-shadow: 0px 7px 20px 2px #0000001f;
+    max-width: 400px;
 }
 
 nav{
