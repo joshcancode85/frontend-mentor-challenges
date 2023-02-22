@@ -110,6 +110,9 @@ body{
 }
 
 .card{
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: auto auto auto;
   padding: 2rem;
   background-color: var(--clr-neutral-100);
   border-radius: .5rem;
@@ -119,6 +122,7 @@ body{
 img{
   border-radius: 50%;
   height: 2rem;
+
 }
 
 .img-border{
@@ -131,6 +135,9 @@ img{
 
 .purple{
   background-color: var(--clr-primary-300);
+  background-image: url(./images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: top right 1.5rem;
 }
 
 .grey{
@@ -142,14 +149,19 @@ img{
 }
 
 .title{
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: var(--fw-bold);
   line-height: 1.5rem;
+  grid-column-start: 1;
+  grid-column-end: 4;
 }
 
 blockquote{
   color: rgba(72, 85, 106, 0.5);
+  grid-column-start: 1;
+  grid-column-end: 4;
 }
+
 .status {
   color: rgba(72, 85, 106, 0.5);
 }
