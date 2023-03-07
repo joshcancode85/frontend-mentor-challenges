@@ -112,7 +112,7 @@ main{
 .card-group{
   display: grid;
   gap: 1.5rem;
-  max-width: 100em;
+  max-width: 1188px;
 }
 
 .card{
@@ -195,6 +195,10 @@ blockquote{
 }
 
 @media screen and (min-width: 50rem) {
+  main{
+    align-items: center;
+    height: 100%;
+  }
   .card-group{
     grid-template-columns:repeat(4, 1fr);
   }
